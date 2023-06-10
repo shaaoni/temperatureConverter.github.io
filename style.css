@@ -1,0 +1,93 @@
+body{
+	padding-top: 30px;
+}
+#err {
+	 color: red;
+	 height: 25px;
+}
+
+#err_unit{
+	 color: red;
+	 height: 25px;
+}
+
+#background{
+	background-image: url("bg.jpg");
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    filter: brightness(30%);
+    background-size: cover;
+    z-index: -1;
+}
+form{
+	/*background-color: #333399;*/
+	padding-top: 50px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.heading{
+	color: white;
+	height: 120px;
+}
+
+.dv2{
+	/*background-color: #e6e6ff;*/
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.bd_div{
+	margin-top: 5vw;
+	margin-right: 30vw; 
+	margin-left: 30vw;
+	padding-top: 5px;
+}
+
+#ans1{
+	color: white;
+	height: 40px;
+	font-style: oblique 10deg;
+	/*font-family: verdana;*/
+}
+
+#ans2{
+	color: white;
+	height: 40px;
+	font-style: oblique 10deg;
+	/*font-family: verdana;*/
+}
+
+#select{
+	font-family: verdana;
+}
+
+input{
+	font-family: verdana;
+	height: 35px;
+	border-radius: 10px;
+}
+
+select{
+	font-family: verdana;
+	height: 35px;
+	border-radius: 10px;
+}
+.glass{
+	background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	backdrop-filter: blur(40px);
+	-webkit-backdrop-filter: blur(40px);
+	border-radius: 20px;
+	border: 1px solid rgba(255,255,255,0.18);
+	box-shadow: 0 8px 32px rgba(255,255,255,0.6);
+}
+
+.font{
+	font-family: verdana,garamond,georgia;
+	font-style: inherit;
+	font-size: 15px;
+	font-stretch: semi-expanded;
+	text-shadow: 2px 2px 4px white;
+}

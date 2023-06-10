@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Temperature Converter </title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+	<div id="background"></div>
+	<center>
+		<span class="font heading"><h1>Temperature Converter</h1></span>
+	<div class="bd_div glass font" >
+			<form onsubmit="return false;">
+			<input type="text" placeholder="Degrees" id="val" required="" autocomplete="off">
+			<br>
+			<span id="err" class="font"></span>
+			<br><br>
+			<select id="select" class="font" autocomplete="off">
+
+				<option>Type</option>
+				<option>Celcius</option>
+				<option>Fahrenheit</option>
+				<option>Kelvin</option>
+
+			</select>
+			<br>
+			<span id="err_unit" class="font"></span>
+			<br><br>
+			<input type="submit" value="Convert" id="submit" onclick="convert()" class="font">
+			<br><br>
+			</form>
+			<div class="dv2">
+				<span id="ans1" class="font"></span>
+				<br><br>
+				<span id="ans2" class="font"></span>
+			</div>
+	</div>
+	</center>
+</body>
+</html>
